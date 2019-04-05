@@ -1,0 +1,82 @@
+﻿
+@{
+    //Layout = null;
+    //Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>ViewCourseStatics</title>
+
+</head>
+<body>
+    <div>
+        <form method="post" id="ViewCourseStaticsForm">
+            <fieldset>
+                <legend>View Course Statics</legend>
+                <br /><br /><br /><br />
+                <table>
+                    <tr>
+                        <td><label for="DepartmentId">Department</label></td>
+                        <td>
+                            <select id="DepartmentId" name="DepartmentId">
+                                <option value="">Select</option>
+                                @foreach (var aCourseAssign in ViewBag.Departments)
+                                {
+                                    <option value="@aCourseAssign.DepartmentId">@aCourseAssign.DepartmentCode</option>
+                                }
+                            </select>
+                        </td>
+                    </tr>
+                </table>
+                <table class="table table-bordered" id="myTable">
+                    <thead>
+                        <tr>
+                            <th>Code</th>
+                            <th>Name/Title</th>
+                            <th>Semester</th>
+                            <th>Assigned To</th>
+                        </tr>
+                    </thead>
+                    <tbody id="studentTbl"></tbody>
+                </table>
+            </fieldset>
+            </form>
+        </div>
+    <script src="~/Scripts/jquery-1.10.2.js"></script>
+    <script src="~/Scripts/jquery.validate.js"></script>
+@section scripts
+    {
+        <script>
+            $(document).ready(function () {
+                $('#myTable').hide();
+                $("#DepartmentId").change(function () {
+                    var deptId = $("#DepartmentId").val();
+                    //$("#studentId").empty();
+                    $("#studentTbl").empty();
+                    $("#myTable").hide();
+                    var json = { DepartmentId: deptId };
+                    $.ajax({
+                        type: "POST",
+                        url: '@Url.Action("GetCourseStaticsByDepartmentId", "CourseAssign")',
+                        //url: '/Department/GetStudentsByDepartmentId',
+                        contentType: "application/json; charset=utf-8",
+                        data: JSON.stringify(json),
+                        success: function (result) {
+                            //alert(result);
+                            $("#myTable").show();
+                            $.each(result, function (key, value) {
+                                $('#studentTbl').append('<tr><td>' + value.CourseCode + '</td><td>' + value.CourseName + '</td><td>' + value.SemesterName + '</td><td>' + value.CourseStatus + '</td></tr>');
+                            });
+
+                        }
+                    });
+                });
+            });
+        </script>
+    }
+    </body>
+    </html>

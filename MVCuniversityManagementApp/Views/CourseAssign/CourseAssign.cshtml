@@ -1,0 +1,274 @@
+﻿@using MVCuniversityManagementApp.Models
+@using Microsoft.Ajax.Utilities
+@{
+    ViewBag.Title = "CourseAssign";
+    //Layout = null;
+    //Layout = "~/Views/Shared/_Layout.cshtml";
+    //List<CourseAssign> Departments = ViewBag.Departments;
+    //List<Teacher> Designations = ViewBag.Semesters;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Course Assign</title>
+    @*<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>*@
+    <style>
+        label.error {
+            color: red;
+            font-style: italic;
+        }
+        /*.navbar {
+            margin-bottom: 0;
+            border-radius: 0;
+        }
+
+        /* Add a gray background color and some padding to the footer *//*
+        footer {
+            background-color: #f2f2f2;
+            padding: 25px;
+        }*/
+    </style>
+</head>
+<body>
+    <br /><br /><br /><br /><br />
+<h2></h2>
+    <div>
+        <form method="POST" id="CourseAssignForm">
+            <fieldset>                
+                <legend>Course Assign to Teacher</legend>
+                <table>
+                    <tr>
+                        <td><label for="DepartmentId">Department</label></td>
+                        <td>
+                            <select id="DepartmentId" name="DepartmentId">
+                                <option value="">Select</option>
+                                @foreach (var aCourseAssign in ViewBag.Departments)
+                                {
+                                    <option value="@aCourseAssign.DepartmentId">@aCourseAssign.DepartmentCode</option>
+                                }
+                            </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><label for="TeacherId">Teacher</label></td>
+                        <td>
+                            <select name="TeacherId" id="TeacherId">
+                                <option value="">Select</option>
+                            </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><label for="TeacherCredit">Credit to be Taken</label></td>
+                        <td><input type="text" id="TeacherCredit" name="TeacherCredit" readonly="readonly" /></td>
+                    </tr>
+                    <tr>
+                        <td><label for="RemainCredit">Remaining Credit</label></td>
+                        <td><input type="text" id="RemainCredit" name="RemainCredit" readonly="readonly" /></td>
+                    </tr>
+                    <tr>
+                        <td><label for="CourseId">Course Code</label></td>
+                        <td>
+                            <select name="CourseId" id="CourseId">
+                                <option value="">Select</option>
+                            </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><label for="CourseName">Course Name</label></td>
+                        <td><input type="text" id="CourseName" name="CourseName" readonly="readonly" size="30"/></td>
+                    </tr>
+                    <tr>
+                        <td><label for="CourseCredit">Course Credit</label></td>
+                        <td><input type="text" id="CourseCredit" name="CourseCredit" readonly="readonly" /></td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td><input type="submit" value="Save" /></td>
+                    </tr>
+                    @*<tr>@ViewBag.Message</tr>*@
+                </table>
+            </fieldset>
+        </form>
+    </div>
+    <script src="~/Scripts/jquery-1.10.2.js"></script>
+    <script src="~/Scripts/jquery.validate.js"></script>
+    @if (ViewBag.Message != null)
+    {
+        <script type="text/javascript">
+            window.onload = function(){
+                alert("@ViewBag.Message");
+                @*window.location.href = "@Url.Action("ShowRegisteredStudents", "Student")";*@
+            };
+        </script>
+    }
+    @section scripts
+{
+        <script>
+        $(document).ready(function () {
+            $("#DepartmentId").change(function () {
+                var deptId = $("#DepartmentId").val();
+                $("#CourseId").empty();
+                //$("#studentTbl").empty();
+                //$("#myTable").hide();
+                var json = { DepartmentId: deptId };
+                $.ajax({
+                    type: "POST",
+                    url: '@Url.Action("GetCourseByDepartmentId", "CourseAssign")',
+                    //url: '/Department/GetStudentsByDepartmentId',
+                    contentType: "application/json; charset=utf-8",
+                    data: JSON.stringify(json),
+                    success: function (result) {
+                        //alert(result);
+                        $.each(result, function (key, value) {
+                            $('#CourseId').append('<option value="' + value.CourseId + '">' + value.CourseCode + '</option>');
+                        });
+
+                    }
+                });
+            });
+        });
+
+
+        $(document).ready(function () {
+            $("#DepartmentId").change(function () {
+                var deptId = $("#DepartmentId").val();
+                $("#TeacherId").empty();
+                //$("#studentTbl").empty();
+                //$("#myTable").hide();
+                var json = { DepartmentId: deptId };
+                $.ajax({
+                    type: "POST",
+                    url: '@Url.Action("GetTeacherByDepartmentId", "CourseAssign")',
+                    //url: '/Department/GetStudentsByDepartmentId',
+                    contentType: "application/json; charset=utf-8",
+                    data: JSON.stringify(json),
+                    success: function (result) {
+                        //alert(result);
+                        $.each(result, function (key, value) {
+                            $('#TeacherId').append('<option value="' + value.TeacherId + '">' + value.TeacherName + '</option>');
+                        });
+
+                    }
+                });
+            });
+
+
+        });
+
+        $(document).ready(function () {
+            $("#TeacherId").change(function () {
+                var teacherId = $("#TeacherId").val();
+                //$("#TeacherCredit").show();
+                //$("#studentTbl").empty();
+                //$("#myTable").hide();
+                var json = { TeacherId: teacherId };
+                $.ajax({
+                    type: "POST",
+                    url: '@Url.Action("GetTeacherCreditByDepartmentId", "CourseAssign")',
+                    //url: '/Department/GetStudentsByDepartmentId',
+                    contentType: "application/json; charset=utf-8",
+                    data: JSON.stringify(json),
+                    success: function (result) {
+                        $.each(result, function (key, value) {
+                            $("#TeacherCredit").val(result.TeacherCredit).show();
+                        });
+                        //alert(result);
+
+                    }
+                });
+            });
+
+
+        });
+
+            $(document).ready(function () {
+                $("#CourseId").change(function () {
+                    var courseId = $("#CourseId").val();
+                    //$("#TeacherCredit").show();
+                    //$("#studentTbl").empty();
+                    //$("#myTable").hide();
+                    var json = { CourseId: courseId };
+                    $.ajax({
+                        type: "POST",
+                        url: '@Url.Action("GetCourseNameByCourseId", "CourseAssign")',
+                        //url: '/Department/GetStudentsByDepartmentId',
+                        contentType: "application/json; charset=utf-8",
+                        data: JSON.stringify(json),
+                        success: function (result) {
+                            $.each(result, function (key, value) {
+                                $("#CourseName").val(result.CourseName).show();
+                            });
+                            //alert(result);
+
+                        }
+                    });
+                });
+
+
+            });
+
+            $(document).ready(function () {
+                $("#CourseId").change(function () {
+                    var courseId = $("#CourseId").val();
+                    $("#CourseCredit").show();
+                    //$("#studentTbl").empty();
+                    //$("#myTable").hide();
+                    var json = { CourseId: courseId };
+                    $.ajax({
+                        type: "POST",
+                        url: '@Url.Action("GetCourseCreditByCourseId", "CourseAssign")',
+                        //url: '/Department/GetStudentsByDepartmentId',
+                        contentType: "application/json; charset=utf-8",
+                        data: JSON.stringify(json),
+                        success: function (result) {
+                            $.each(result, function (key, value) {
+                                $("#CourseCredit").val(result.CourseCredit);
+                            });
+                            //alert(result);
+
+                        }
+                    });
+                });
+
+
+            });
+
+            $(document).ready(function () {
+                $("#TeacherId").change(function () {
+                    var courseId = $("#TeacherId").val();
+                    $("#RemainCredit").show();
+                    //$("#studentTbl").empty();
+                    //$("#myTable").hide();
+                    var json = { TeacherId: courseId };
+                    $.ajax({
+                        type: "POST",
+                        url: '@Url.Action("GetRemainCreditByTeacherId", "CourseAssign")',
+                        //url: '/Department/GetStudentsByDepartmentId',
+                        contentType: "application/json; charset=utf-8",
+                        data: JSON.stringify(json),
+                        success: function (result) {
+                            $.each(result, function (key, value) {
+                                $("#RemainCredit").val(result.RemainCredit);
+                            });
+                            //alert(result);
+
+                        }
+                    });
+                });
+
+
+            });
+
+        </script>
+    }
+</body>
+</html>
+
+
+
+

@@ -1,0 +1,55 @@
+﻿@using MVCuniversityManagementApp.Models
+@{
+    //Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Create</title>
+    <style>
+        label.error {
+            color: red;
+            font-style: italic;
+        }
+    </style>
+</head>
+<body>
+    <br /><br /><br /><br /><br /><br />
+    <div>
+        <form method="POST" id="SaveDepartmentForm">
+            <fieldset>
+                <legend>Save Department</legend>
+                <table>
+                    <tr>
+                        <td><label for="DepartmentCode">Code</label></td>
+                        <td><input type="text" id="DepartmentCode" name="DepartmentCode" minlength="2" maxlength="7"/></td>
+                    </tr>
+                    <tr>
+                        <td><label for="DepartmentName">Name</label></td>
+                        <td><input type="text" id="DepartmentName" name="DepartmentName" /></td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td><input type="submit" value="Save" /></td>
+                    </tr>
+                    @*<tr>@ViewBag.Message</tr>*@
+                </table>
+            </fieldset>
+        </form>
+    </div>
+    <script src="~/Scripts/jquery-1.10.2.js"></script>
+    <script src="~/Scripts/jquery.validate.js"></script>
+    @if (ViewBag.Message != null)
+    {
+        <script type="text/javascript">
+            window.onload = function(){
+                alert("@ViewBag.Message");
+                @*window.location.href = "@Url.Action("ShowRegisteredStudents", "Student")";*@
+            };
+        </script>
+    }
+</body>
+</html>

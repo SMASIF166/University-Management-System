@@ -1,0 +1,136 @@
+﻿@using MVCuniversityManagementApp.Models
+@using Microsoft.Ajax.Utilities
+@{
+    Layout = null;
+    List<Teacher> Departments = ViewBag.Departments;
+    List<Teacher> Designations = ViewBag.Semesters;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Save Teacher</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <style>
+        label.error {
+            color: red;
+            font-style: italic;
+        }
+          h3.a {
+                text-align: center;
+           }
+    </style>
+</head>
+<body>
+    @*<br /><br /><br /><br /><br /><br />*@
+    <nav class="navbar navbar-inverse">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <a class="navbar-brand" href="#">University Management System</a>
+            </div>
+            <ul class="nav navbar-nav">
+                <li class="active"><a href="/Main/Main">Home</a></li>
+                <li><a href="/Department/SaveDepartment">Save Department</a></li>
+                <li><a href="/Department/ShowAllDepartment">Show All Department</a></li>
+                <li><a href="/Course/SaveCourse">Save Course</a></li>
+                <li><a href="/Teacher/SaveTeacher/">Save Teacher</a></li>
+                <li><a href="/CourseAssign/CourseAssign/">Course Assign To Teacher</a></li>
+                <li><a href="/CourseAssign/ViewCourseStatics/">View Course Statics</a></li>
+                <li><a href="/Student/RegisterStudent/">Register Student</a>"</li>
+            </ul>
+        </div>
+        </nav>
+        <div>
+            <form method="POST" id="SaveTeacherForm">
+                <fieldset>
+                    <h3 class="a">Save Teacher</h3>
+                    <table align="center">
+                        <tr>
+                            <td><label for="TeacherName">Name</label></td>
+                            <td><input type="text" id="TeacherName" name="TeacherName" /></td>
+                        </tr>
+                        <tr>
+                            <td><label for="TeacherAddress">Address</label></td>
+                            <td><textarea rows="4" cols="50" id="TeacherAddress" name="TeacherAddress"></textarea></td>
+                        </tr>
+                        <tr>
+                            <td><label for="TeacherEmail">Email</label></td>
+                            <td><input type="text" id="TeacherEmail" name="TeacherEmail" /></td>
+                        </tr>
+                        <tr>
+                            <td><label for="TeacherContactNo">Contact No.</label></td>
+                            <td><input type="text" id="TeacherContactNo" name="TeacherContactNo" /></td>
+                        </tr>
+                        <tr>
+                            <td><label for="TeacherCredit">Credit to be taken</label></td>
+                            <td><input type="text" id="TeacherCredit" name="TeacherCredit" /></td>
+                        </tr>
+                        <tr>
+                            <td><label for="DesignationId">Designation</label></td>
+                            <td>
+                                <select id="DesignationId" name="DesignationId">
+                                    <option value="">Select</option>
+                                    @foreach (Teacher aTeacher in Designations)
+                                    {
+                                        <option value="@aTeacher.DesignationId">@aTeacher.DesignationName</option>
+                                    }
+                                </select>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td><label for="DepartmentId">Department</label></td>
+                            <td>
+                                <select id="DepartmentId" name="DepartmentId">
+                                    <option value="">Select</option>
+                                    @foreach (Teacher aTeacher in Departments)
+                                    {
+                                        <option value="@aTeacher.DepartmentId">@aTeacher.DepartmentCode</option>
+                                    }
+                                </select>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td></td>
+                            <td><input type="submit" value="Save" /></td>
+                        </tr>
+                        @*<tr>@ViewBag.Message</tr>*@
+                    </table>
+                </fieldset>
+            </form>
+        </div>
+        <script src="~/Scripts/jquery-1.10.2.js"></script>
+        <script src="~/Scripts/jquery.validate.js"></script>
+    @if (ViewBag.Message != null)
+    {
+        <script type="text/javascript">
+            window.onload = function(){
+                alert("@ViewBag.Message");
+                @*window.location.href = "@Url.Action("ShowRegisteredStudents", "Student")";*@
+            };
+        </script>
+    }
+        <script>
+            $(document).ready(function () {
+                $("#SaveTeacherForm").validate({
+                    rules: {
+                        TeacherEmail: {
+                            email: true,
+                        },
+                        TeacherCredit: {
+                            min: 0,
+                        }
+                    },
+                    messages: {
+                        email: "Please enter a valid email address.",
+                        min: "Value must be greater than 0",
+                    }
+                });
+
+            });
+        </script>
+</body>
+</html>

@@ -1,0 +1,207 @@
+F:\Study\BITM Training Dot Net (Maruf)\MVC 5\MVCuniversityManagementApp\MVCuniversityManagementApp\bin\roslyn\csc.exe
+F:\Study\BITM Training Dot Net (Maruf)\MVC 5\MVCuniversityManagementApp\MVCuniversityManagementApp\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+F:\Study\BITM Training Dot Net (Maruf)\MVC 5\MVCuniversityManagementApp\MVCuniversityManagementApp\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+F:\Study\BITM Training Dot Net (Maruf)\MVC 5\MVCuniversityManagementApp\MVCuniversityManagementApp\bin\roslyn\Microsoft.CodeAnalysis.dll
+F:\Study\BITM Training Dot Net (Maruf)\MVC 5\MVCuniversityManagementApp\MVCuniversityManagementApp\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+F:\Study\BITM Training Dot Net (Maruf)\MVC 5\MVCuniversityManagementApp\MVCuniversityManagementApp\bin\roslyn\Microsoft.CSharp.Core.targets
+F:\Study\BITM Training Dot Net (Maruf)\MVC 5\MVCuniversityManagementApp\MVCuniversityManagementApp\bin\roslyn\Microsoft.VisualBasic.Core.targets
+F:\Study\BITM Training Dot Net (Maruf)\MVC 5\MVCuniversityManagementApp\MVCuniversityManagementApp\bin\roslyn\System.Collections.Immutable.dll
+F:\Study\BITM Training Dot Net (Maruf)\MVC 5\MVCuniversityManagementApp\MVCuniversityManagementApp\bin\roslyn\System.Reflection.Metadata.dll
+F:\Study\BITM Training Dot Net (Maruf)\MVC 5\MVCuniversityManagementApp\MVCuniversityManagementApp\bin\roslyn\vbc.exe
+F:\Study\BITM Training Dot Net (Maruf)\MVC 5\MVCuniversityManagementApp\MVCuniversityManagementApp\bin\roslyn\VBCSCompiler.exe
+F:\Study\BITM Training Dot Net (Maruf)\MVC 5\MVCuniversityManagementApp\MVCuniversityManagementApp\bin\roslyn\VBCSCompiler.exe.config
+F:\Study\BITM Training Dot Net (Maruf)\MVC 5\MVCuniversityManagementApp\MVCuniversityManagementApp\bin\MVCuniversityManagementApp.dll.config
+F:\Study\BITM Training Dot Net (Maruf)\MVC 5\MVCuniversityManagementApp\MVCuniversityManagementApp\bin\MVCuniversityManagementApp.dll
+F:\Study\BITM Training Dot Net (Maruf)\MVC 5\MVCuniversityManagementApp\MVCuniversityManagementApp\bin\MVCuniversityManagementApp.pdb
+F:\Study\BITM Training Dot Net (Maruf)\MVC 5\MVCuniversityManagementApp\MVCuniversityManagementApp\bin\Antlr3.Runtime.dll
+F:\Study\BITM Training Dot Net (Maruf)\MVC 5\MVCuniversityManagementApp\MVCuniversityManagementApp\bin\EntityFramework.dll
+F:\Study\BITM Training Dot Net (Maruf)\MVC 5\MVCuniversityManagementApp\MVCuniversityManagementApp\bin\EntityFramework.SqlServer.dll
+F:\Study\BITM Training Dot Net (Maruf)\MVC 5\MVCuniversityManagementApp\MVCuniversityManagementApp\bin\Microsoft.AspNet.Identity.Core.dll
+F:\Study\BITM Training Dot Net (Maruf)\MVC 5\MVCuniversityManagementApp\MVCuniversityManagementApp\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+F:\Study\BITM Training Dot Net (Maruf)\MVC 5\MVCuniversityManagementApp\MVCuniversityManagementApp\bin\Microsoft.AspNet.Identity.Owin.dll
+F:\Study\BITM Training Dot Net (Maruf)\MVC 5\MVCuniversityManagementApp\MVCuniversityManagementApp\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+F:\Study\BITM Training Dot Net (Maruf)\MVC 5\MVCuniversityManagementApp\MVCuniversityManagementApp\bin\Microsoft.Owin.dll
+F:\Study\BITM Training Dot Net (Maruf)\MVC 5\MVCuniversityManagementApp\MVCuniversityManagementApp\bin\Microsoft.Owin.Host.SystemWeb.dll
+F:\Study\BITM Training Dot Net (Maruf)\MVC 5\MVCuniversityManagementApp\MVCuniversityManagementApp\bin\Microsoft.Owin.Security.Cookies.dll
+F:\Study\BITM Training Dot Net (Maruf)\MVC 5\MVCuniversityManagementApp\MVCuniversityManagementApp\bin\Microsoft.Owin.Security.dll
+F:\Study\BITM Training Dot Net (Maruf)\MVC 5\MVCuniversityManagementApp\MVCuniversityManagementApp\bin\Microsoft.Owin.Security.Facebook.dll
+F:\Study\BITM Training Dot Net (Maruf)\MVC 5\MVCuniversityManagementApp\MVCuniversityManagementApp\bin\Microsoft.Owin.Security.Google.dll
+F:\Study\BITM Training Dot Net (Maruf)\MVC 5\MVCuniversityManagementApp\MVCuniversityManagementApp\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+F:\Study\BITM Training Dot Net (Maruf)\MVC 5\MVCuniversityManagementApp\MVCuniversityManagementApp\bin\Microsoft.Owin.Security.OAuth.dll
+F:\Study\BITM Training Dot Net (Maruf)\MVC 5\MVCuniversityManagementApp\MVCuniversityManagementApp\bin\Microsoft.Owin.Security.Twitter.dll
+F:\Study\BITM Training Dot Net (Maruf)\MVC 5\MVCuniversityManagementApp\MVCuniversityManagementApp\bin\Microsoft.Web.Infrastructure.dll
+F:\Study\BITM Training Dot Net (Maruf)\MVC 5\MVCuniversityManagementApp\MVCuniversityManagementApp\bin\Newtonsoft.Json.dll
+F:\Study\BITM Training Dot Net (Maruf)\MVC 5\MVCuniversityManagementApp\MVCuniversityManagementApp\bin\Owin.dll
+F:\Study\BITM Training Dot Net (Maruf)\MVC 5\MVCuniversityManagementApp\MVCuniversityManagementApp\bin\System.Web.Helpers.dll
+F:\Study\BITM Training Dot Net (Maruf)\MVC 5\MVCuniversityManagementApp\MVCuniversityManagementApp\bin\System.Web.Mvc.dll
+F:\Study\BITM Training Dot Net (Maruf)\MVC 5\MVCuniversityManagementApp\MVCuniversityManagementApp\bin\System.Web.Optimization.dll
+F:\Study\BITM Training Dot Net (Maruf)\MVC 5\MVCuniversityManagementApp\MVCuniversityManagementApp\bin\System.Web.Razor.dll
+F:\Study\BITM Training Dot Net (Maruf)\MVC 5\MVCuniversityManagementApp\MVCuniversityManagementApp\bin\System.Web.WebPages.Deployment.dll
+F:\Study\BITM Training Dot Net (Maruf)\MVC 5\MVCuniversityManagementApp\MVCuniversityManagementApp\bin\System.Web.WebPages.dll
+F:\Study\BITM Training Dot Net (Maruf)\MVC 5\MVCuniversityManagementApp\MVCuniversityManagementApp\bin\System.Web.WebPages.Razor.dll
+F:\Study\BITM Training Dot Net (Maruf)\MVC 5\MVCuniversityManagementApp\MVCuniversityManagementApp\bin\WebGrease.dll
+F:\Study\BITM Training Dot Net (Maruf)\MVC 5\MVCuniversityManagementApp\MVCuniversityManagementApp\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+F:\Study\BITM Training Dot Net (Maruf)\MVC 5\MVCuniversityManagementApp\MVCuniversityManagementApp\bin\System.Web.Helpers.xml
+F:\Study\BITM Training Dot Net (Maruf)\MVC 5\MVCuniversityManagementApp\MVCuniversityManagementApp\bin\System.Web.Mvc.xml
+F:\Study\BITM Training Dot Net (Maruf)\MVC 5\MVCuniversityManagementApp\MVCuniversityManagementApp\bin\System.Web.Optimization.xml
+F:\Study\BITM Training Dot Net (Maruf)\MVC 5\MVCuniversityManagementApp\MVCuniversityManagementApp\bin\System.Web.Razor.xml
+F:\Study\BITM Training Dot Net (Maruf)\MVC 5\MVCuniversityManagementApp\MVCuniversityManagementApp\bin\System.Web.WebPages.xml
+F:\Study\BITM Training Dot Net (Maruf)\MVC 5\MVCuniversityManagementApp\MVCuniversityManagementApp\bin\System.Web.WebPages.Deployment.xml
+F:\Study\BITM Training Dot Net (Maruf)\MVC 5\MVCuniversityManagementApp\MVCuniversityManagementApp\bin\System.Web.WebPages.Razor.xml
+F:\Study\BITM Training Dot Net (Maruf)\MVC 5\MVCuniversityManagementApp\MVCuniversityManagementApp\bin\Antlr3.Runtime.pdb
+F:\Study\BITM Training Dot Net (Maruf)\MVC 5\MVCuniversityManagementApp\MVCuniversityManagementApp\bin\Newtonsoft.Json.xml
+F:\Study\BITM Training Dot Net (Maruf)\MVC 5\MVCuniversityManagementApp\MVCuniversityManagementApp\bin\EntityFramework.xml
+F:\Study\BITM Training Dot Net (Maruf)\MVC 5\MVCuniversityManagementApp\MVCuniversityManagementApp\bin\EntityFramework.SqlServer.xml
+F:\Study\BITM Training Dot Net (Maruf)\MVC 5\MVCuniversityManagementApp\MVCuniversityManagementApp\bin\Microsoft.AspNet.Identity.Core.xml
+F:\Study\BITM Training Dot Net (Maruf)\MVC 5\MVCuniversityManagementApp\MVCuniversityManagementApp\bin\Microsoft.AspNet.Identity.Owin.xml
+F:\Study\BITM Training Dot Net (Maruf)\MVC 5\MVCuniversityManagementApp\MVCuniversityManagementApp\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+F:\Study\BITM Training Dot Net (Maruf)\MVC 5\MVCuniversityManagementApp\MVCuniversityManagementApp\bin\Microsoft.Owin.xml
+F:\Study\BITM Training Dot Net (Maruf)\MVC 5\MVCuniversityManagementApp\MVCuniversityManagementApp\bin\Microsoft.Owin.Host.SystemWeb.xml
+F:\Study\BITM Training Dot Net (Maruf)\MVC 5\MVCuniversityManagementApp\MVCuniversityManagementApp\bin\Microsoft.Owin.Security.xml
+F:\Study\BITM Training Dot Net (Maruf)\MVC 5\MVCuniversityManagementApp\MVCuniversityManagementApp\bin\Microsoft.Owin.Security.Facebook.xml
+F:\Study\BITM Training Dot Net (Maruf)\MVC 5\MVCuniversityManagementApp\MVCuniversityManagementApp\bin\Microsoft.Owin.Security.Cookies.xml
+F:\Study\BITM Training Dot Net (Maruf)\MVC 5\MVCuniversityManagementApp\MVCuniversityManagementApp\bin\Microsoft.Owin.Security.OAuth.xml
+F:\Study\BITM Training Dot Net (Maruf)\MVC 5\MVCuniversityManagementApp\MVCuniversityManagementApp\bin\Microsoft.Owin.Security.Google.xml
+F:\Study\BITM Training Dot Net (Maruf)\MVC 5\MVCuniversityManagementApp\MVCuniversityManagementApp\bin\Microsoft.Owin.Security.Twitter.xml
+F:\Study\BITM Training Dot Net (Maruf)\MVC 5\MVCuniversityManagementApp\MVCuniversityManagementApp\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+F:\Study\BITM Training Dot Net (Maruf)\MVC 5\MVCuniversityManagementApp\MVCuniversityManagementApp\obj\Debug\MVCuniversityManagementApp.csprojResolveAssemblyReference.cache
+F:\Study\BITM Training Dot Net (Maruf)\MVC 5\MVCuniversityManagementApp\MVCuniversityManagementApp\obj\Debug\MVCuniversityManagementApp.dll
+F:\Study\BITM Training Dot Net (Maruf)\MVC 5\MVCuniversityManagementApp\MVCuniversityManagementApp\obj\Debug\MVCuniversityManagementApp.pdb
+F:\Study\BITM Training Dot Net (Maruf)\University Management System\MVCuniversityManagementApp\MVCuniversityManagementApp\bin\roslyn\csc.exe
+F:\Study\BITM Training Dot Net (Maruf)\University Management System\MVCuniversityManagementApp\MVCuniversityManagementApp\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+F:\Study\BITM Training Dot Net (Maruf)\University Management System\MVCuniversityManagementApp\MVCuniversityManagementApp\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+F:\Study\BITM Training Dot Net (Maruf)\University Management System\MVCuniversityManagementApp\MVCuniversityManagementApp\bin\roslyn\Microsoft.CodeAnalysis.dll
+F:\Study\BITM Training Dot Net (Maruf)\University Management System\MVCuniversityManagementApp\MVCuniversityManagementApp\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+F:\Study\BITM Training Dot Net (Maruf)\University Management System\MVCuniversityManagementApp\MVCuniversityManagementApp\bin\roslyn\Microsoft.CSharp.Core.targets
+F:\Study\BITM Training Dot Net (Maruf)\University Management System\MVCuniversityManagementApp\MVCuniversityManagementApp\bin\roslyn\Microsoft.VisualBasic.Core.targets
+F:\Study\BITM Training Dot Net (Maruf)\University Management System\MVCuniversityManagementApp\MVCuniversityManagementApp\bin\roslyn\System.Collections.Immutable.dll
+F:\Study\BITM Training Dot Net (Maruf)\University Management System\MVCuniversityManagementApp\MVCuniversityManagementApp\bin\roslyn\System.Reflection.Metadata.dll
+F:\Study\BITM Training Dot Net (Maruf)\University Management System\MVCuniversityManagementApp\MVCuniversityManagementApp\bin\roslyn\vbc.exe
+F:\Study\BITM Training Dot Net (Maruf)\University Management System\MVCuniversityManagementApp\MVCuniversityManagementApp\bin\roslyn\VBCSCompiler.exe
+F:\Study\BITM Training Dot Net (Maruf)\University Management System\MVCuniversityManagementApp\MVCuniversityManagementApp\bin\roslyn\VBCSCompiler.exe.config
+F:\Study\BITM Training Dot Net (Maruf)\University Management System\MVCuniversityManagementApp\MVCuniversityManagementApp\bin\MVCuniversityManagementApp.dll.config
+F:\Study\BITM Training Dot Net (Maruf)\University Management System\MVCuniversityManagementApp\MVCuniversityManagementApp\bin\MVCuniversityManagementApp.dll
+F:\Study\BITM Training Dot Net (Maruf)\University Management System\MVCuniversityManagementApp\MVCuniversityManagementApp\bin\MVCuniversityManagementApp.pdb
+F:\Study\BITM Training Dot Net (Maruf)\University Management System\MVCuniversityManagementApp\MVCuniversityManagementApp\bin\Antlr3.Runtime.dll
+F:\Study\BITM Training Dot Net (Maruf)\University Management System\MVCuniversityManagementApp\MVCuniversityManagementApp\bin\EntityFramework.dll
+F:\Study\BITM Training Dot Net (Maruf)\University Management System\MVCuniversityManagementApp\MVCuniversityManagementApp\bin\EntityFramework.SqlServer.dll
+F:\Study\BITM Training Dot Net (Maruf)\University Management System\MVCuniversityManagementApp\MVCuniversityManagementApp\bin\Microsoft.AspNet.Identity.Core.dll
+F:\Study\BITM Training Dot Net (Maruf)\University Management System\MVCuniversityManagementApp\MVCuniversityManagementApp\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+F:\Study\BITM Training Dot Net (Maruf)\University Management System\MVCuniversityManagementApp\MVCuniversityManagementApp\bin\Microsoft.AspNet.Identity.Owin.dll
+F:\Study\BITM Training Dot Net (Maruf)\University Management System\MVCuniversityManagementApp\MVCuniversityManagementApp\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+F:\Study\BITM Training Dot Net (Maruf)\University Management System\MVCuniversityManagementApp\MVCuniversityManagementApp\bin\Microsoft.Owin.dll
+F:\Study\BITM Training Dot Net (Maruf)\University Management System\MVCuniversityManagementApp\MVCuniversityManagementApp\bin\Microsoft.Owin.Host.SystemWeb.dll
+F:\Study\BITM Training Dot Net (Maruf)\University Management System\MVCuniversityManagementApp\MVCuniversityManagementApp\bin\Microsoft.Owin.Security.Cookies.dll
+F:\Study\BITM Training Dot Net (Maruf)\University Management System\MVCuniversityManagementApp\MVCuniversityManagementApp\bin\Microsoft.Owin.Security.dll
+F:\Study\BITM Training Dot Net (Maruf)\University Management System\MVCuniversityManagementApp\MVCuniversityManagementApp\bin\Microsoft.Owin.Security.Facebook.dll
+F:\Study\BITM Training Dot Net (Maruf)\University Management System\MVCuniversityManagementApp\MVCuniversityManagementApp\bin\Microsoft.Owin.Security.Google.dll
+F:\Study\BITM Training Dot Net (Maruf)\University Management System\MVCuniversityManagementApp\MVCuniversityManagementApp\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+F:\Study\BITM Training Dot Net (Maruf)\University Management System\MVCuniversityManagementApp\MVCuniversityManagementApp\bin\Microsoft.Owin.Security.OAuth.dll
+F:\Study\BITM Training Dot Net (Maruf)\University Management System\MVCuniversityManagementApp\MVCuniversityManagementApp\bin\Microsoft.Owin.Security.Twitter.dll
+F:\Study\BITM Training Dot Net (Maruf)\University Management System\MVCuniversityManagementApp\MVCuniversityManagementApp\bin\Microsoft.Web.Infrastructure.dll
+F:\Study\BITM Training Dot Net (Maruf)\University Management System\MVCuniversityManagementApp\MVCuniversityManagementApp\bin\Newtonsoft.Json.dll
+F:\Study\BITM Training Dot Net (Maruf)\University Management System\MVCuniversityManagementApp\MVCuniversityManagementApp\bin\Owin.dll
+F:\Study\BITM Training Dot Net (Maruf)\University Management System\MVCuniversityManagementApp\MVCuniversityManagementApp\bin\System.Web.Helpers.dll
+F:\Study\BITM Training Dot Net (Maruf)\University Management System\MVCuniversityManagementApp\MVCuniversityManagementApp\bin\System.Web.Mvc.dll
+F:\Study\BITM Training Dot Net (Maruf)\University Management System\MVCuniversityManagementApp\MVCuniversityManagementApp\bin\System.Web.Optimization.dll
+F:\Study\BITM Training Dot Net (Maruf)\University Management System\MVCuniversityManagementApp\MVCuniversityManagementApp\bin\System.Web.Razor.dll
+F:\Study\BITM Training Dot Net (Maruf)\University Management System\MVCuniversityManagementApp\MVCuniversityManagementApp\bin\System.Web.WebPages.Deployment.dll
+F:\Study\BITM Training Dot Net (Maruf)\University Management System\MVCuniversityManagementApp\MVCuniversityManagementApp\bin\System.Web.WebPages.dll
+F:\Study\BITM Training Dot Net (Maruf)\University Management System\MVCuniversityManagementApp\MVCuniversityManagementApp\bin\System.Web.WebPages.Razor.dll
+F:\Study\BITM Training Dot Net (Maruf)\University Management System\MVCuniversityManagementApp\MVCuniversityManagementApp\bin\WebGrease.dll
+F:\Study\BITM Training Dot Net (Maruf)\University Management System\MVCuniversityManagementApp\MVCuniversityManagementApp\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+F:\Study\BITM Training Dot Net (Maruf)\University Management System\MVCuniversityManagementApp\MVCuniversityManagementApp\bin\System.Web.Helpers.xml
+F:\Study\BITM Training Dot Net (Maruf)\University Management System\MVCuniversityManagementApp\MVCuniversityManagementApp\bin\System.Web.Mvc.xml
+F:\Study\BITM Training Dot Net (Maruf)\University Management System\MVCuniversityManagementApp\MVCuniversityManagementApp\bin\System.Web.Optimization.xml
+F:\Study\BITM Training Dot Net (Maruf)\University Management System\MVCuniversityManagementApp\MVCuniversityManagementApp\bin\System.Web.Razor.xml
+F:\Study\BITM Training Dot Net (Maruf)\University Management System\MVCuniversityManagementApp\MVCuniversityManagementApp\bin\System.Web.WebPages.xml
+F:\Study\BITM Training Dot Net (Maruf)\University Management System\MVCuniversityManagementApp\MVCuniversityManagementApp\bin\System.Web.WebPages.Deployment.xml
+F:\Study\BITM Training Dot Net (Maruf)\University Management System\MVCuniversityManagementApp\MVCuniversityManagementApp\bin\System.Web.WebPages.Razor.xml
+F:\Study\BITM Training Dot Net (Maruf)\University Management System\MVCuniversityManagementApp\MVCuniversityManagementApp\bin\Antlr3.Runtime.pdb
+F:\Study\BITM Training Dot Net (Maruf)\University Management System\MVCuniversityManagementApp\MVCuniversityManagementApp\bin\Newtonsoft.Json.xml
+F:\Study\BITM Training Dot Net (Maruf)\University Management System\MVCuniversityManagementApp\MVCuniversityManagementApp\bin\EntityFramework.xml
+F:\Study\BITM Training Dot Net (Maruf)\University Management System\MVCuniversityManagementApp\MVCuniversityManagementApp\bin\EntityFramework.SqlServer.xml
+F:\Study\BITM Training Dot Net (Maruf)\University Management System\MVCuniversityManagementApp\MVCuniversityManagementApp\bin\Microsoft.AspNet.Identity.Core.xml
+F:\Study\BITM Training Dot Net (Maruf)\University Management System\MVCuniversityManagementApp\MVCuniversityManagementApp\bin\Microsoft.AspNet.Identity.Owin.xml
+F:\Study\BITM Training Dot Net (Maruf)\University Management System\MVCuniversityManagementApp\MVCuniversityManagementApp\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+F:\Study\BITM Training Dot Net (Maruf)\University Management System\MVCuniversityManagementApp\MVCuniversityManagementApp\bin\Microsoft.Owin.xml
+F:\Study\BITM Training Dot Net (Maruf)\University Management System\MVCuniversityManagementApp\MVCuniversityManagementApp\bin\Microsoft.Owin.Host.SystemWeb.xml
+F:\Study\BITM Training Dot Net (Maruf)\University Management System\MVCuniversityManagementApp\MVCuniversityManagementApp\bin\Microsoft.Owin.Security.xml
+F:\Study\BITM Training Dot Net (Maruf)\University Management System\MVCuniversityManagementApp\MVCuniversityManagementApp\bin\Microsoft.Owin.Security.Facebook.xml
+F:\Study\BITM Training Dot Net (Maruf)\University Management System\MVCuniversityManagementApp\MVCuniversityManagementApp\bin\Microsoft.Owin.Security.Cookies.xml
+F:\Study\BITM Training Dot Net (Maruf)\University Management System\MVCuniversityManagementApp\MVCuniversityManagementApp\bin\Microsoft.Owin.Security.OAuth.xml
+F:\Study\BITM Training Dot Net (Maruf)\University Management System\MVCuniversityManagementApp\MVCuniversityManagementApp\bin\Microsoft.Owin.Security.Google.xml
+F:\Study\BITM Training Dot Net (Maruf)\University Management System\MVCuniversityManagementApp\MVCuniversityManagementApp\bin\Microsoft.Owin.Security.Twitter.xml
+F:\Study\BITM Training Dot Net (Maruf)\University Management System\MVCuniversityManagementApp\MVCuniversityManagementApp\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+F:\Study\BITM Training Dot Net (Maruf)\University Management System\MVCuniversityManagementApp\MVCuniversityManagementApp\obj\Debug\MVCuniversityManagementApp.csprojResolveAssemblyReference.cache
+F:\Study\BITM Training Dot Net (Maruf)\University Management System\MVCuniversityManagementApp\MVCuniversityManagementApp\obj\Debug\MVCuniversityManagementApp.dll
+F:\Study\BITM Training Dot Net (Maruf)\University Management System\MVCuniversityManagementApp\MVCuniversityManagementApp\obj\Debug\MVCuniversityManagementApp.pdb
+E:\Study\BITM Training Dot Net (Maruf)\University Management System\MVCuniversityManagementApp\MVCuniversityManagementApp\bin\roslyn\csc.exe
+E:\Study\BITM Training Dot Net (Maruf)\University Management System\MVCuniversityManagementApp\MVCuniversityManagementApp\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+E:\Study\BITM Training Dot Net (Maruf)\University Management System\MVCuniversityManagementApp\MVCuniversityManagementApp\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+E:\Study\BITM Training Dot Net (Maruf)\University Management System\MVCuniversityManagementApp\MVCuniversityManagementApp\bin\roslyn\Microsoft.CodeAnalysis.dll
+E:\Study\BITM Training Dot Net (Maruf)\University Management System\MVCuniversityManagementApp\MVCuniversityManagementApp\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+E:\Study\BITM Training Dot Net (Maruf)\University Management System\MVCuniversityManagementApp\MVCuniversityManagementApp\bin\roslyn\Microsoft.CSharp.Core.targets
+E:\Study\BITM Training Dot Net (Maruf)\University Management System\MVCuniversityManagementApp\MVCuniversityManagementApp\bin\roslyn\Microsoft.VisualBasic.Core.targets
+E:\Study\BITM Training Dot Net (Maruf)\University Management System\MVCuniversityManagementApp\MVCuniversityManagementApp\bin\roslyn\System.Collections.Immutable.dll
+E:\Study\BITM Training Dot Net (Maruf)\University Management System\MVCuniversityManagementApp\MVCuniversityManagementApp\bin\roslyn\System.Reflection.Metadata.dll
+E:\Study\BITM Training Dot Net (Maruf)\University Management System\MVCuniversityManagementApp\MVCuniversityManagementApp\bin\roslyn\vbc.exe
+E:\Study\BITM Training Dot Net (Maruf)\University Management System\MVCuniversityManagementApp\MVCuniversityManagementApp\bin\roslyn\VBCSCompiler.exe
+E:\Study\BITM Training Dot Net (Maruf)\University Management System\MVCuniversityManagementApp\MVCuniversityManagementApp\bin\roslyn\VBCSCompiler.exe.config
+E:\Study\BITM Training Dot Net (Maruf)\University Management System\MVCuniversityManagementApp\MVCuniversityManagementApp\bin\MVCuniversityManagementApp.dll.config
+E:\Study\BITM Training Dot Net (Maruf)\University Management System\MVCuniversityManagementApp\MVCuniversityManagementApp\bin\MVCuniversityManagementApp.dll
+E:\Study\BITM Training Dot Net (Maruf)\University Management System\MVCuniversityManagementApp\MVCuniversityManagementApp\bin\MVCuniversityManagementApp.pdb
+E:\Study\BITM Training Dot Net (Maruf)\University Management System\MVCuniversityManagementApp\MVCuniversityManagementApp\bin\Antlr3.Runtime.dll
+E:\Study\BITM Training Dot Net (Maruf)\University Management System\MVCuniversityManagementApp\MVCuniversityManagementApp\bin\EntityFramework.dll
+E:\Study\BITM Training Dot Net (Maruf)\University Management System\MVCuniversityManagementApp\MVCuniversityManagementApp\bin\EntityFramework.SqlServer.dll
+E:\Study\BITM Training Dot Net (Maruf)\University Management System\MVCuniversityManagementApp\MVCuniversityManagementApp\bin\Microsoft.AspNet.Identity.Core.dll
+E:\Study\BITM Training Dot Net (Maruf)\University Management System\MVCuniversityManagementApp\MVCuniversityManagementApp\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+E:\Study\BITM Training Dot Net (Maruf)\University Management System\MVCuniversityManagementApp\MVCuniversityManagementApp\bin\Microsoft.AspNet.Identity.Owin.dll
+E:\Study\BITM Training Dot Net (Maruf)\University Management System\MVCuniversityManagementApp\MVCuniversityManagementApp\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+E:\Study\BITM Training Dot Net (Maruf)\University Management System\MVCuniversityManagementApp\MVCuniversityManagementApp\bin\Microsoft.Owin.dll
+E:\Study\BITM Training Dot Net (Maruf)\University Management System\MVCuniversityManagementApp\MVCuniversityManagementApp\bin\Microsoft.Owin.Host.SystemWeb.dll
+E:\Study\BITM Training Dot Net (Maruf)\University Management System\MVCuniversityManagementApp\MVCuniversityManagementApp\bin\Microsoft.Owin.Security.Cookies.dll
+E:\Study\BITM Training Dot Net (Maruf)\University Management System\MVCuniversityManagementApp\MVCuniversityManagementApp\bin\Microsoft.Owin.Security.dll
+E:\Study\BITM Training Dot Net (Maruf)\University Management System\MVCuniversityManagementApp\MVCuniversityManagementApp\bin\Microsoft.Owin.Security.Facebook.dll
+E:\Study\BITM Training Dot Net (Maruf)\University Management System\MVCuniversityManagementApp\MVCuniversityManagementApp\bin\Microsoft.Owin.Security.Google.dll
+E:\Study\BITM Training Dot Net (Maruf)\University Management System\MVCuniversityManagementApp\MVCuniversityManagementApp\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+E:\Study\BITM Training Dot Net (Maruf)\University Management System\MVCuniversityManagementApp\MVCuniversityManagementApp\bin\Microsoft.Owin.Security.OAuth.dll
+E:\Study\BITM Training Dot Net (Maruf)\University Management System\MVCuniversityManagementApp\MVCuniversityManagementApp\bin\Microsoft.Owin.Security.Twitter.dll
+E:\Study\BITM Training Dot Net (Maruf)\University Management System\MVCuniversityManagementApp\MVCuniversityManagementApp\bin\Microsoft.Web.Infrastructure.dll
+E:\Study\BITM Training Dot Net (Maruf)\University Management System\MVCuniversityManagementApp\MVCuniversityManagementApp\bin\Newtonsoft.Json.dll
+E:\Study\BITM Training Dot Net (Maruf)\University Management System\MVCuniversityManagementApp\MVCuniversityManagementApp\bin\Owin.dll
+E:\Study\BITM Training Dot Net (Maruf)\University Management System\MVCuniversityManagementApp\MVCuniversityManagementApp\bin\System.Web.Helpers.dll
+E:\Study\BITM Training Dot Net (Maruf)\University Management System\MVCuniversityManagementApp\MVCuniversityManagementApp\bin\System.Web.Mvc.dll
+E:\Study\BITM Training Dot Net (Maruf)\University Management System\MVCuniversityManagementApp\MVCuniversityManagementApp\bin\System.Web.Optimization.dll
+E:\Study\BITM Training Dot Net (Maruf)\University Management System\MVCuniversityManagementApp\MVCuniversityManagementApp\bin\System.Web.Razor.dll
+E:\Study\BITM Training Dot Net (Maruf)\University Management System\MVCuniversityManagementApp\MVCuniversityManagementApp\bin\System.Web.WebPages.Deployment.dll
+E:\Study\BITM Training Dot Net (Maruf)\University Management System\MVCuniversityManagementApp\MVCuniversityManagementApp\bin\System.Web.WebPages.dll
+E:\Study\BITM Training Dot Net (Maruf)\University Management System\MVCuniversityManagementApp\MVCuniversityManagementApp\bin\System.Web.WebPages.Razor.dll
+E:\Study\BITM Training Dot Net (Maruf)\University Management System\MVCuniversityManagementApp\MVCuniversityManagementApp\bin\WebGrease.dll
+E:\Study\BITM Training Dot Net (Maruf)\University Management System\MVCuniversityManagementApp\MVCuniversityManagementApp\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+E:\Study\BITM Training Dot Net (Maruf)\University Management System\MVCuniversityManagementApp\MVCuniversityManagementApp\bin\System.Web.Helpers.xml
+E:\Study\BITM Training Dot Net (Maruf)\University Management System\MVCuniversityManagementApp\MVCuniversityManagementApp\bin\System.Web.Mvc.xml
+E:\Study\BITM Training Dot Net (Maruf)\University Management System\MVCuniversityManagementApp\MVCuniversityManagementApp\bin\System.Web.Optimization.xml
+E:\Study\BITM Training Dot Net (Maruf)\University Management System\MVCuniversityManagementApp\MVCuniversityManagementApp\bin\System.Web.Razor.xml
+E:\Study\BITM Training Dot Net (Maruf)\University Management System\MVCuniversityManagementApp\MVCuniversityManagementApp\bin\System.Web.WebPages.xml
+E:\Study\BITM Training Dot Net (Maruf)\University Management System\MVCuniversityManagementApp\MVCuniversityManagementApp\bin\System.Web.WebPages.Deployment.xml
+E:\Study\BITM Training Dot Net (Maruf)\University Management System\MVCuniversityManagementApp\MVCuniversityManagementApp\bin\System.Web.WebPages.Razor.xml
+E:\Study\BITM Training Dot Net (Maruf)\University Management System\MVCuniversityManagementApp\MVCuniversityManagementApp\bin\Antlr3.Runtime.pdb
+E:\Study\BITM Training Dot Net (Maruf)\University Management System\MVCuniversityManagementApp\MVCuniversityManagementApp\bin\Newtonsoft.Json.xml
+E:\Study\BITM Training Dot Net (Maruf)\University Management System\MVCuniversityManagementApp\MVCuniversityManagementApp\bin\EntityFramework.xml
+E:\Study\BITM Training Dot Net (Maruf)\University Management System\MVCuniversityManagementApp\MVCuniversityManagementApp\bin\EntityFramework.SqlServer.xml
+E:\Study\BITM Training Dot Net (Maruf)\University Management System\MVCuniversityManagementApp\MVCuniversityManagementApp\bin\Microsoft.AspNet.Identity.Core.xml
+E:\Study\BITM Training Dot Net (Maruf)\University Management System\MVCuniversityManagementApp\MVCuniversityManagementApp\bin\Microsoft.AspNet.Identity.Owin.xml
+E:\Study\BITM Training Dot Net (Maruf)\University Management System\MVCuniversityManagementApp\MVCuniversityManagementApp\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+E:\Study\BITM Training Dot Net (Maruf)\University Management System\MVCuniversityManagementApp\MVCuniversityManagementApp\bin\Microsoft.Owin.xml
+E:\Study\BITM Training Dot Net (Maruf)\University Management System\MVCuniversityManagementApp\MVCuniversityManagementApp\bin\Microsoft.Owin.Host.SystemWeb.xml
+E:\Study\BITM Training Dot Net (Maruf)\University Management System\MVCuniversityManagementApp\MVCuniversityManagementApp\bin\Microsoft.Owin.Security.xml
+E:\Study\BITM Training Dot Net (Maruf)\University Management System\MVCuniversityManagementApp\MVCuniversityManagementApp\bin\Microsoft.Owin.Security.Facebook.xml
+E:\Study\BITM Training Dot Net (Maruf)\University Management System\MVCuniversityManagementApp\MVCuniversityManagementApp\bin\Microsoft.Owin.Security.Cookies.xml
+E:\Study\BITM Training Dot Net (Maruf)\University Management System\MVCuniversityManagementApp\MVCuniversityManagementApp\bin\Microsoft.Owin.Security.OAuth.xml
+E:\Study\BITM Training Dot Net (Maruf)\University Management System\MVCuniversityManagementApp\MVCuniversityManagementApp\bin\Microsoft.Owin.Security.Google.xml
+E:\Study\BITM Training Dot Net (Maruf)\University Management System\MVCuniversityManagementApp\MVCuniversityManagementApp\bin\Microsoft.Owin.Security.Twitter.xml
+E:\Study\BITM Training Dot Net (Maruf)\University Management System\MVCuniversityManagementApp\MVCuniversityManagementApp\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+E:\Study\BITM Training Dot Net (Maruf)\University Management System\MVCuniversityManagementApp\MVCuniversityManagementApp\obj\Debug\MVCuniversityManagementApp.csprojResolveAssemblyReference.cache
+E:\Study\BITM Training Dot Net (Maruf)\University Management System\MVCuniversityManagementApp\MVCuniversityManagementApp\obj\Debug\MVCuniversityManagementApp.dll
+E:\Study\BITM Training Dot Net (Maruf)\University Management System\MVCuniversityManagementApp\MVCuniversityManagementApp\obj\Debug\MVCuniversityManagementApp.pdb

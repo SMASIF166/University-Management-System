@@ -1,0 +1,48 @@
+﻿@using MVCuniversityManagementApp.Models
+@using Microsoft.Ajax.Utilities
+@{
+    //Layout = null;
+    List<Student> StudentRecords = ViewBag.StudentRecord;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>ShowRegisteredStudents</title>
+</head>
+<body>
+    <br /><br /><br /><br /><br /><br />
+    <div> 
+        <table class="table table-bordered" id="myTable">
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Email</th>
+                    <th>Contact No.</th>
+                    <th>Date</th>
+                    <th>Address</th>
+                    <th>Department</th>
+                    <th>Registration Number</th>
+                </tr>
+            </thead>
+            <tbody id="studentTbl">
+                @foreach (Student Student in StudentRecords)
+                {
+                    <tr>
+                        <td>@Student.StudentName</td>
+                        <td>@Student.StudentEmail</td>
+                        <td>@Student.StudentContactNo</td>
+                        <td>@Student.StudentDate</td>
+                        <td>@Student.StudentAddress</td>
+                        <td>@Student.DepartmentCode</td>
+                        <td>@Student.RegistrationNumber</td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+
+    </div>
+</body>
+</html>

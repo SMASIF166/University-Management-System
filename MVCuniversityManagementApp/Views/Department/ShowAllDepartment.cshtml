@@ -1,0 +1,49 @@
+﻿@using MVCuniversityManagementApp.Models
+@{
+    //Layout = null;
+    List<Department> Departments = ViewBag.DepartmentList;
+}
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Show</title>
+    <style>
+        table {
+                    border-collapse: collapse;
+              }
+        table, th, td {
+                            border: 1px solid black;
+                      }
+    </style>
+
+</head>
+<body>
+    <br /><br /><br /><br /><br /><br />
+    <div>
+        <form id="ViewDepartmentForm">
+            <fieldset>
+                <legend>View All Departments</legend>
+                    <table class="table table-bordered">
+                        <thead>
+                            <tr>
+                                <th>Code</th>
+                                <th>Name</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            @foreach (Department aDepartment in Model)
+                            {
+                                <tr>
+                                    <td>@aDepartment.DepartmentCode</td>
+                                    <td>@aDepartment.DepartmentName</td>
+                                </tr>
+                            }
+                        </tbody>
+                    </table>
+            </fieldset>
+        </form>
+    </div>
+</body>
+</html>
